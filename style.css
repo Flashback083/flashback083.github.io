@@ -1,0 +1,75 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background-image: url("bg.png");
+	background-color: silver;
+	position: relative;
+}
+
+nav {
+	z-index:2;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: fixed;
+	width: 140px;
+	height: 100%;
+	overflow: auto;
+	background-color: grey;
+	margin: 0;
+}
+
+nav a {
+	padding: 15px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background-color: red;
+}
+
+.active {
+	background-color: orange;
+}
+
+section {
+	padding: 50px 50px 50px 180px;
+}
+
+header {
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+article {
+	position: relative;
+	margin: 20px;
+	padding: 20px 40px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 80%;
+	text-align: center;
+}
+
+.download {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
